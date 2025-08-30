@@ -1,0 +1,1 @@
+cargo run --release -- --input "/home/ubuntu/leptless/2021.eacl-main.75.pdf"
