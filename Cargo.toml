@@ -1,0 +1,28 @@
+[package]
+name = "rust_searchable_pdf"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# PDF rendering
+pdfium-render = "0.8.10"
+
+# OCR (Tesseract wrapper)
+leptess = "0.14.0"
+
+# PDF creation
+printpdf = "0.7.0"
+
+# Image handling (glue between other crates)
+image = "0.25.1"
+
+# Command-line argument parsing
+clap = { version = "4.5.4", features = ["derive"] }
+
+# Error handling
+anyhow = "1.0.86"
+
+# Logging
+log = "0.4.21"
+env_logger = "0.11.3"
+tempfile = "3.21.0"
